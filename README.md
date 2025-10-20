@@ -17,15 +17,14 @@ The goal is to transform raw sales data into meaningful insights through data cl
 ---
 
 📂 Files Included
-| File | Description |
-
-o Auto_Sales_Analysis.xlsx | Excel workbook containing data cleaning, pivot tables, and basic sales summary analysis. 
-o Auto_Sales_Dashboard.pbix| Power BI file containing interactive visuals such as top products, monthly trends, and revenue breakdowns. 
-o EADME.md | Project overview and documentation (this file). 
+ File | Description
+- Auto_Sales_Analysis.xlsx | Excel workbook containing data cleaning, pivot tables, and basic sales summary analysis. 
+- Auto_Sales_Dashboard.pbix| Power BI file containing interactive visuals such as top products, monthly trends, and revenue breakdowns. 
+- README.md | Project overview and documentation (this file). 
 
 ---
-o	ORDERDATE → Date
-## 📈 Power BI Dashboard Highlights
+
+📈 Power BI Dashboard Highlights
 The Power BI dashboard includes:
 - Total Revenue Overview  
   Displays total revenue and average order value (AOV).
