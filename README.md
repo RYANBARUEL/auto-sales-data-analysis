@@ -1,40 +1,74 @@
-Auto Sales Dashboard Project
+Auto Sales Analysis (Excel + Power BI)
 
-Project Overview
-This Power BI project analyzes automotive sales performance using data from the Auto Sales dataset. The goal is to provide insights into total sales, company trends, and outlier detection, supporting data-driven decisions and performance monitoring.
+📊 Overview
+This project analyzes **Auto Sales Data** using **Microsoft Excel** and **Power BI** to uncover key business insights such as sales performance, top products, and revenue trends.
 
-The interactive dashboard allows users to explore sales by company, product line, country, and deal size, with slicers and visuals designed for intuitive analysis.
+The goal is to transform raw sales data into meaningful insights through data cleaning, analysis, and visualization — showing proficiency in using spreadsheet tools and business intelligence dashboards.
 
-Dataset Description
+---
 
-File Name: Auto_Sales_Data.csv (cleaned and used in Power BI)
-Rows: ~1000 records
-Columns:
+🧾 Project Objectives
+- Perform data cleaning and organization in Excel.  
+- Create pivot tables and charts for summary analysis.  
+- Develop a Power BI dashboard to visualize sales performance.  
+- Identify trends such as "monthly revenue growth", "top-performing companies", and "best-selling products".  
+- Derive key insights to support business decision-making.
 
-Column Name	              Description
+---
 
-Company_Name	            Name of the customer or company
-Country	                  Customer’s country
-ProductLine	              Category of the product sold
-DealSize	                Classification of the deal (Small, Medium, Large)
-TotalSales  	            Total sales amount for each transaction
-OrderNumber	              Unique identifier for the order
-Status	                  Order or delivery status
-OrderDate	                Date the order was placed
-Qtr	                      Quarter of the year (derived column)
-MonthName	                Month name (derived column)
+📂 Files Included
+| File | Description |
 
-Data Cleaning and Preparation
-Data was cleaned using Excel and transformed in Power BI:
-•	Removed duplicates and missing values
-•	Standardized column names (Customer Name → Company_Name, Sales → Total Sales)
-•	Added derived columns for Qtr and MonthName
-•	Converted OrderDate to proper date format
+o Auto_Sales_Analysis.xlsx | Excel workbook containing data cleaning, pivot tables, and basic sales summary analysis. 
+o Auto_Sales_Dashboard.pbix| Power BI file containing interactive visuals such as top products, monthly trends, and revenue breakdowns. 
+o EADME.md | Project overview and documentation (this file). 
 
-Ensured consistent text casing and currency formatting
-# 1 Project: Auto Sales Dashboard (Power BI)
-This dashboard provides:
-•	Overall sales performance and trends
-•	Customer insights (top buyers, frequent customers)
-•	Outlier analysis for unusual sales data
-•	Interactive slicers synced across pages
+---
+o	ORDERDATE → Date
+## 📈 Power BI Dashboard Highlights
+The Power BI dashboard includes:
+- Total Revenue Overview  
+  Displays total revenue and average order value (AOV).
+- Top 10 Products by Sales  
+  Identifies products contributing most to total revenue.
+- Monthly Revenue Trends  
+  Shows seasonal patterns and sales fluctuations over time.
+- Sales by Country / City 
+  Visualizes regional performance and customer distribution.
+- Outlier Detection (if applicable)  
+  Highlights transactions with unusually high or low revenues.
+
+---
+
+💡Key Insights
+- The "top 10 products" contribute a major share of total revenue.  
+- "Monthly sales trends" show consistent growth in the second quarter.  
+- The "average order value" reflects strong customer spending patterns.  
+- Visuals reveal potential regions and product lines for future marketing focus.
+
+---
+
+🧠 Tools & Skills Used
+- Microsoft Excel — Data cleaning, transformation, and pivot analysis.  
+- Microsoft Power BI — Dashboard creation and data visualization.  
+- Data Analysis Concepts — KPI tracking, trend analysis, and outlier detection.  
+
+---
+
+🚀How to Use This Project
+1. Download the Excel file (`Auto_Sales_Analysis.xlsx`) to explore cleaned and summarized data.  
+2. Open the Power BI file (`Auto_Sales_Dashboard.pbix`) to view and interact with visual dashboards.  
+3. Filter by time, region, or product to explore specific insights.
+
+---
+
+👩‍💻 Author
+**Ryan Tañajura Baruel**  
+📍 Barili, Cebu, Philippines  
+📧 [ryanbaruel1988@gmail.com](mailto:ryanbaruel1988@gmail.com)
+
+---
+
+🌟 About This Portfolio
+This project is part of my **Data Analytics Portfolio**, showcasing practical analysis using Excel and Power BI.  
+It demonstrates my ability to transform raw data into business insights through visualization and data storytelling.
