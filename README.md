@@ -65,6 +65,7 @@ The Power BI dashboard includes:
 **Ryan Tañajura Baruel**  
 📍 Barili, Cebu, Philippines  
 📧 [ryanbaruel1988@gmail.com](mailto:ryanbaruel1988@gmail.com)
+📧 [www.linkedin.com/in/ryan-baruel-779b571a2]
 
 ---
 
