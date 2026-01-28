@@ -5,11 +5,17 @@ A portfolio project demonstrating data analytics skills using Power BI, SQL, and
 ---
 
 📌 Project Objectives
+
 This project answers key business questions such as:
+
 •	How is revenue performing over time?
+
 •	Which product lines generate the most revenue? 
+
 •	Which countries contribute the most to sales?
+
 •	How does deal size impact revenue?
+
 •	Who are the top 10 customers by revenue?
 
 ---
