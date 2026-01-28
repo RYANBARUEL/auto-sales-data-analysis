@@ -1,74 +1,92 @@
-Auto Sales Analysis (Excel + Power BI)
+Auto Sales Performance Dashboard
 
-📊 Overview
-This project analyzes **Auto Sales Data** using **Microsoft Excel** and **Power BI** to uncover key business insights such as sales performance, top products, and revenue trends.
-
-The goal is to transform raw sales data into meaningful insights through data cleaning, analysis, and visualization — showing proficiency in using spreadsheet tools and business intelligence dashboards.
+A portfolio project demonstrating data analytics skills using Power BI, SQL, and Excel. This project analyzes auto sales transaction data to uncover revenue trends, customer performance, and product insights through an interactive dashboard.
 
 ---
 
-🧾 Project Objectives
-- Perform data cleaning and organization in Excel.  
-- Create pivot tables and charts for summary analysis.  
-- Develop a Power BI dashboard to visualize sales performance.  
-- Identify trends such as "monthly revenue growth", "top-performing companies", and "best-selling products".  
-- Derive key insights to support business decision-making.
+📌 Project Objectives
+This project answers key business questions such as:
+•	How is revenue performing over time?
+•	Which product lines generate the most revenue? 
+•	Which countries contribute the most to sales?
+•	How does deal size impact revenue?
+•	Who are the top 10 customers by revenue?
 
 ---
 
-📂 Files Included
- File | Description
-- Auto_Sales_Analysis.xlsx | Excel workbook containing data cleaning, pivot tables, and basic sales summary analysis. 
-- Auto_Sales_Dashboard.pbix| Power BI file containing interactive visuals such as top products, monthly trends, and revenue breakdowns. 
-- README.md | Project overview and documentation (this file). 
+📊Dashboard Features
+Key KPIs
+•	Total Revenue
+•	Total Orders
+•	Average Order Value
+•	Total Quantity Sold
 
----
+Visualizations
+• Revenue Trend Over Time (Line Chart)
+•	Total Revenue by Country (Bar Chart)
+•	Total Revenue by Product Line (Bar Chart)
+•	Total Revenue by Deal Size (Column Chart)
+• Top 10 Customers by Revenue (Bar Chart)
 
-📈 Power BI Dashboard Highlights
-The Power BI dashboard includes:
-- Total Revenue Overview  
-  Displays total revenue and average order value (AOV).
-- Top 10 Products by Sales  
-  Identifies products contributing most to total revenue.
-- Monthly Revenue Trends  
-  Shows seasonal patterns and sales fluctuations over time.
-- Sales by Country / City 
-  Visualizes regional performance and customer distribution.
-- Outlier Detection (if applicable)  
-  Highlights transactions with unusually high or low revenues.
+Interactive Filters (Slicers)
+•	Order Year
+•	Country
+•	Product Line
+•	Deal Size
 
----
+🛠Tools & Technologies
+•	Power BI – Dashboard creation and DAX measures
+•	SQL – Data aggregation and querying
+•	Excel – Data cleaning and exploration
+•	Dataset – 2,700+ auto sales transaction records
 
-💡Key Insights
-- The "top 10 products" contribute a major share of total revenue.  
-- "Monthly sales trends" show consistent growth in the second quarter.  
-- The "average order value" reflects strong customer spending patterns.  
-- Visuals reveal potential regions and product lines for future marketing focus.
+📂Dataset Information
+The dataset contains sales transactions with fields such as:
+•	Sales (Revenue)
+•	Quantity Ordered
+•	Product Line
+•	Deal Size
+•	Country
+•	Customer (Company Name)
+•	Order Status
 
----
+Data was cleaned by:
+•	Removing duplicates
+•	Handling missing values
+•	Correcting data types
+•	Creating calculated columns (e.g., Year, Month)
 
-🧠 Tools & Skills Used
-- Microsoft Excel — Data cleaning, transformation, and pivot analysis.  
-- Microsoft Power BI — Dashboard creation and data visualization.  
-- Data Analysis Concepts — KPI tracking, trend analysis, and outlier detection.  
+📈 Sample DAX Measures
+•	Total Revenue = SUM(SalesData[SALES])s
+•	Total Orders = DISTINCTCOUNT(SalesData[ORDERNUMBER])
+•	Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+•	Total Quantity Sold = SUM(SalesData[QUANTITYORDERED])
 
----
+💡 Key Insights
+•	Certain product lines (e.g., Classic Cars, Vintage Cars) contribute the majority of revenue
+•	Large deal sizes generate significantly higher revenue than small deals
+•	A small group of top customers contributes a large portion of total revenue
+•	Revenue trends reveal seasonal and yearly performance patterns
 
-🚀How to Use This Project
-1. Download the Excel file (`Auto_Sales_Analysis.xlsx`) to explore cleaned and summarized data.  
-2. Open the Power BI file (`Auto_Sales_Dashboard.pbix`) to view and interact with visual dashboards.  
-3. Filter by time, region, or product to explore specific insights.
+🎯 Purpose of This Project
+This project was created to:
+• Build a strong data analyst portfolio
+• Demonstrate practical Power BI and SQL skills
+• Showcase ability to translate data into business insights
+• Prepare for data analyst interviews
 
----
+📸 Dashboard Preview
 
-👩‍💻 Author
-**Ryan Tañajura Baruel**  
-📍 Barili, Cebu, Philippines  
-📧 [ryanbaruel1988@gmail.com](mailto:ryanbaruel1988@gmail.com)
-📧 [www.linkedin.com/in/ryan-baruel-779b571a2]
+(<img 
+  src="https://github.com/user-attachments/assets/5b618f62-b2b7-464b-bd2b-7def29cd65f1" 
+  alt="Auto Sales Dashboard Preview" 
+  width="800"/>)  
 
----
+📬 Contact
 
-🌟 About This Portfolio
-This project is part of my **Data Analytics Portfolio**, showcasing practical analysis using Excel and Power BI.  
-It demonstrates my ability to transform raw data into business insights through visualization and data storytelling.
+Ryan Tañajura Baruel
+📍 Barili, Cebu, Philippines
+📧 ryanbaruel1988@gmail.com
+
+
+If you find this project helpful, feel free to ⭐ the repository!
