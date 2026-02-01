@@ -15,9 +15,6 @@ This dashboard analyzes 2,700+ auto sales transactions to uncover **revenue tren
 - How does deal size impact revenue?
 - Who are the top customers by revenue?
 
-![Dashboard Overview](https://github.com/user-attachments/assets/f7446bc6-2e82-4e6f-834f-0752d574cfad)
-
-
 ---
 
 ## Key KPIs
@@ -37,6 +34,8 @@ This dashboard analyzes 2,700+ auto sales transactions to uncover **revenue tren
 - Revenue by Deal Size (Column Chart)
 - Top 10 Customers by Revenue (Bar Chart)
 - Interactive slicers for Year, Country, Product Line, and Deal Size
+
+![Dashboard Overview](https://github.com/user-attachments/assets/f7446bc6-2e82-4e6f-834f-0752d574cfad)
 
 ---
 
