@@ -54,6 +54,7 @@ This project answers key business questions such as:
 
 •	Deal Size
 
+
 🛠**Tools & Technologies**
 
 •	Power BI – Dashboard creation and DAX measures
@@ -64,7 +65,9 @@ This project answers key business questions such as:
 
 •	Dataset – 2,700+ auto sales transaction records
 
+
 📂 **Dataset Information**
+
 The dataset contains sales transactions with fields such as:
 
 •	Sales (Revenue)
@@ -81,6 +84,7 @@ The dataset contains sales transactions with fields such as:
 
 •	Order Status
 
+
 **Data was cleaned by**:
 
 •	Removing duplicates
@@ -90,6 +94,7 @@ The dataset contains sales transactions with fields such as:
 •	Correcting data types
 
 •	Creating calculated columns (e.g., Year, Month)
+
 
 📈 **Sample DAX Measures**
 
@@ -101,7 +106,9 @@ The dataset contains sales transactions with fields such as:
 
 •	Total Quantity Sold = SUM(SalesData[QUANTITYORDERED])
 
+
 💡 **Key Insights**
+
 •	Certain product lines (e.g., Classic Cars, Vintage Cars) contribute the majority of revenue.
 
 •	Large deal sizes generate significantly higher revenue than small deals.
@@ -109,6 +116,7 @@ The dataset contains sales transactions with fields such as:
 •	A small group of top customers contributes a large portion of total revenue.
 
 •	Revenue trends reveal seasonal and yearly performance patterns.
+
 
 🎯 **Purpose of This Project**
 
@@ -122,12 +130,14 @@ This project was created to:
 
 • Prepare for data analyst interviews
 
+
 📸 **Dashboard Preview**
 
 (<img 
   src="https://github.com/user-attachments/assets/08c8d91e-e0fb-4b0b-8cfb-b4ecf0d62bd2"
   alt="Auto Sales Dashboard Preview" 
   width="800"/>)
+
 
 📬 **Contact**
 
