@@ -1,10 +1,10 @@
-Auto Sales Performance Dashboard
+**Auto Sales Performance Dashboard**
 
 A portfolio project demonstrating data analytics skills using Power BI, SQL, and Excel. This project analyzes auto sales transaction data to uncover revenue trends, customer performance, and product insights through an interactive dashboard.
 
 ---
 
-📌 Project Objectives
+📌 **Project Objectives**
 
 This project answers key business questions such as:
 
@@ -20,9 +20,9 @@ This project answers key business questions such as:
 
 ---
 
-📊Dashboard Features
+📊**Dashboard Features**
 
-Key KPIs
+**Key KPIs**
 
 •	Total Revenue
 
@@ -32,7 +32,7 @@ Key KPIs
 
 •	Total Quantity Sold
 
-Visualizations
+**Visualizations**
 
 • Revenue Trend Over Time (Line Chart)
 
@@ -44,7 +44,7 @@ Visualizations
 
 • Top 10 Customers by Revenue (Bar Chart)
 
-Interactive Filters (Slicers)
+**Interactive Filters (Slicers)**
 
 •	Order Year
 
@@ -54,7 +54,7 @@ Interactive Filters (Slicers)
 
 •	Deal Size
 
-🛠Tools & Technologies
+🛠**Tools & Technologies**
 
 •	Power BI – Dashboard creation and DAX measures
 
@@ -64,8 +64,7 @@ Interactive Filters (Slicers)
 
 •	Dataset – 2,700+ auto sales transaction records
 
-📂Dataset Information
-
+📂 **Dataset Information**
 The dataset contains sales transactions with fields such as:
 
 •	Sales (Revenue)
@@ -82,7 +81,7 @@ The dataset contains sales transactions with fields such as:
 
 •	Order Status
 
-Data was cleaned by:
+**Data was cleaned by**:
 
 •	Removing duplicates
 
@@ -92,7 +91,7 @@ Data was cleaned by:
 
 •	Creating calculated columns (e.g., Year, Month)
 
-📈 Sample DAX Measures
+📈 **Sample DAX Measures**
 
 •	Total Revenue = SUM(SalesData[SALES])
 
@@ -102,8 +101,7 @@ Data was cleaned by:
 
 •	Total Quantity Sold = SUM(SalesData[QUANTITYORDERED])
 
-💡 Key Insights
-
+💡 **Key Insights**
 •	Certain product lines (e.g., Classic Cars, Vintage Cars) contribute the majority of revenue.
 
 •	Large deal sizes generate significantly higher revenue than small deals.
@@ -112,7 +110,7 @@ Data was cleaned by:
 
 •	Revenue trends reveal seasonal and yearly performance patterns.
 
-🎯 Purpose of This Project
+🎯 **Purpose of This Project**
 
 This project was created to:
 
@@ -124,16 +122,16 @@ This project was created to:
 
 • Prepare for data analyst interviews
 
-📸 Dashboard Preview
+📸 **Dashboard Preview**
 
 (<img 
-  src="https://github.com/user-attachments/assets/4fcc68c3-880b-41b9-9002-d4af98be9e22"
+  src="https://github.com/user-attachments/assets/08c8d91e-e0fb-4b0b-8cfb-b4ecf0d62bd2"
   alt="Auto Sales Dashboard Preview" 
   width="800"/>)
 
-📬 Contact
+📬 **Contact**
 
-Ryan Tañajura Baruel
+**Ryan Tañajura Baruel**
 📍 Barili, Cebu, Philippines
 📧 ryanbaruel1988@gmail.com
 
