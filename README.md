@@ -36,7 +36,7 @@ This project answers key business questions such as:
 
 • Revenue Trend Over Time (Line Chart)
 
-•	Total Revenue by Country (Bar Chart)
+•	Total Revenue by Country (Treemap)
 
 •	Total Revenue by Product Line (Bar Chart)
 
