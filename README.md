@@ -149,7 +149,9 @@ This project was created to:
 📬 **Contact**
 
 **Ryan Tañajura Baruel**
+
 📍 Barili, Cebu, Philippines
+
 📧 ryanbaruel1988@gmail.com
 
 
