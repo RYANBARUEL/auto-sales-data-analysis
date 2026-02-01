@@ -54,6 +54,7 @@ This project answers key business questions such as:
 
 •	Deal Size
 
+---
 
 🛠**Tools & Technologies**
 
@@ -65,6 +66,7 @@ This project answers key business questions such as:
 
 •	Dataset – 2,700+ auto sales transaction records
 
+---
 
 📂 **Dataset Information**
 
@@ -95,6 +97,7 @@ The dataset contains sales transactions with fields such as:
 
 •	Creating calculated columns (e.g., Year, Month)
 
+---
 
 📈 **Sample DAX Measures**
 
@@ -106,6 +109,7 @@ The dataset contains sales transactions with fields such as:
 
 •	Total Quantity Sold = SUM(SalesData[QUANTITYORDERED])
 
+---
 
 💡 **Key Insights**
 
@@ -117,6 +121,7 @@ The dataset contains sales transactions with fields such as:
 
 •	Revenue trends reveal seasonal and yearly performance patterns.
 
+---
 
 🎯 **Purpose of This Project**
 
@@ -130,6 +135,7 @@ This project was created to:
 
 • Prepare for data analyst interviews
 
+---
 
 📸 **Dashboard Preview**
 
@@ -138,6 +144,7 @@ This project was created to:
   alt="Auto Sales Dashboard Preview" 
   width="800"/>)
 
+---
 
 📬 **Contact**
 
