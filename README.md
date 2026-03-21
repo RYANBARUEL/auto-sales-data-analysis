@@ -25,8 +25,8 @@ The dashboard is designed to help stakeholders understand sales behavior, identi
 ---
 
 ## 📈 Dashboard Preview
-![Auto Sales Dashboard](<img src="https://github.com/user-attachments/assets/2cc1787d-d28d-4649-955f-7278f969000e" width="800"/>
-)
+![Auto Sales Dashboard]([<img src="https://github.com/user-attachments/assets/2cc1787d-d28d-4649-955f-7278f969000e" width="800"/>
+)](https://github.com/user-attachments/assets/2cc1787d-d28d-4649-955f-7278f969000e))
 
 ---
 
