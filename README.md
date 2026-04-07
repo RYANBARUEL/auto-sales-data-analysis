@@ -11,9 +11,13 @@ This project presents an interactive Power BI dashboard designed to provide acti
 🎯 Objectives
 
 •	Track Revenue (YoY Growth) and Orders (MoM Trend)
+
 •	Identify monthly and seasonal sales patterns
+
 •	Highlight top-performing product lines and deal sizes
+
 •	Evaluate Top 10 companies by revenue for strategic focus
+
 •	Provide a single-pane view of key sales KPIs
 
 
@@ -23,12 +27,19 @@ This project presents an interactive Power BI dashboard designed to provide acti
 📊 Key Metrics & Insights
 
 •	Revenue (YoY Growth): $9.8M with a 110% increase vs last year
+
 •	Orders (MoM Trend): 298 total orders, 4.9% increase vs last month
+
 •	Total Quantity Sold: 96K units
+
 •	Average Order Value: $32.8K (slight -0.5% decline)
+
 •	Revenue Trends: Peaks in November, consistent year-end performance
+
 •	Top Product Line: Classic Cars lead in total revenue
+
 •	Revenue Share by Deal Size: Large deals contribute the majority of sales
+
 •	Top 10 Companies: Displayed with revenue distribution across countries
 
 
@@ -45,7 +56,9 @@ This project presents an interactive Power BI dashboard designed to provide acti
 🛠️ Tools & Technologies
 
 •	Power BI – Data visualization, interactive dashboards
+
 •	DAX – KPI, MoM, and YoY calculations
+
 •	Excel & SQL – Data cleaning, extraction, and transformation
 
 
@@ -57,9 +70,13 @@ This project presents an interactive Power BI dashboard designed to provide acti
 Includes historical auto sales data with:
 
 •	Order Date
+
 •	Product Line
+
 •	Sales Revenue
+
 •	Customer Information
+
 •	Deal Size
 
 
@@ -69,10 +86,15 @@ Includes historical auto sales data with:
 💡 Key Features
 
 •	Interactive KPIs for quick insight into revenue and orders
+
 •	Revenue trend visualization vs last year and target
+
 •	Monthly orders trend and product line performance
+
 •	Revenue share by deal size and Top 10 company ranking
+
 •	Filterable by time period, country, product line, and deal size
+
 •	Professional dashboard layout suitable for executives
 
 
