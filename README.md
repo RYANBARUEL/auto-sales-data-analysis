@@ -1,68 +1,94 @@
 🚗 Auto Sales Performance Dashboard
 
-## 📌 Project Overview
-This project presents an interactive Power BI dashboard analyzing auto sales data to uncover key business insights, revenue trends, and product performance.
+📌 Project Overview
 
-The dashboard is designed to help stakeholders understand sales behavior, identify top-performing product lines, and detect seasonal patterns for better decision-making.
+This project presents an interactive Power BI dashboard designed to provide actionable insights into auto sales performance. It allows stakeholders to analyze revenue trends, monitor monthly and yearly performance, and evaluate product line and deal-size contributions for data-driven decision-making.
 
----
-
-## 🎯 Objectives
-- Analyze revenue trends over time
-- Identify peak sales periods and seasonal patterns
-- Determine top-performing product lines
-- Support data-driven business decisions
 
 ---
 
-## 📊 Key Insights
-- Revenue demonstrates a strong seasonal pattern, consistently peaking in November across multiple years
-- The highest revenue spikes were recorded in 2018 and 2019, indicating exceptional year-end performance
-- Sales trends suggest increased customer demand during the final quarter, likely driven by holiday-related purchasing behavior
-- Classic Cars emerge as the top-performing product line, contributing the largest share of total revenue
-- Overall revenue trend shows periodic growth with noticeable fluctuations, highlighting opportunities for demand forecasting and sales optimization
+
+🎯 Objectives
+
+•	Track Revenue (YoY Growth) and Orders (MoM Trend)
+•	Identify monthly and seasonal sales patterns
+•	Highlight top-performing product lines and deal sizes
+•	Evaluate Top 10 companies by revenue for strategic focus
+•	Provide a single-pane view of key sales KPIs
+
 
 ---
+
+
+📊 Key Metrics & Insights
+
+•	Revenue (YoY Growth): $9.8M with a 110% increase vs last year
+•	Orders (MoM Trend): 298 total orders, 4.9% increase vs last month
+•	Total Quantity Sold: 96K units
+•	Average Order Value: $32.8K (slight -0.5% decline)
+•	Revenue Trends: Peaks in November, consistent year-end performance
+•	Top Product Line: Classic Cars lead in total revenue
+•	Revenue Share by Deal Size: Large deals contribute the majority of sales
+•	Top 10 Companies: Displayed with revenue distribution across countries
+
+
+---
+
 
 ## 📈 Dashboard Preview
-![Auto Sales Dashboard]([<img src="https://github.com/user-attachments/assets/2cc1787d-d28d-4649-955f-7278f969000e" width="800"/>
-)](https://github.com/user-attachments/assets/2cc1787d-d28d-4649-955f-7278f969000e))
+![Auto Sales Dashboard]( <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/eefc3860-31d7-48af-af2f-9ce7afdc9bb2" />)
+
 
 ---
 
-## 🛠️ Tools & Technologies
-- Power BI (Data Visualization)
-- SQL (Data Extraction and Transformation)
-- Excel (Data Cleaning)
+
+🛠️ Tools & Technologies
+
+•	Power BI – Data visualization, interactive dashboards
+•	DAX – KPI, MoM, and YoY calculations
+•	Excel & SQL – Data cleaning, extraction, and transformation
+
 
 ---
 
-## 📂 Dataset
-The dataset contains historical auto sales data, including:
-- Order Date
-- Product Line
-- Sales Revenue
-- Customer Information
-- Deal Size
+
+📂 Dataset
+
+Includes historical auto sales data with:
+
+•	Order Date
+•	Product Line
+•	Sales Revenue
+•	Customer Information
+•	Deal Size
+
 
 ---
 
-## 💡 Key Features
-- Interactive filters for dynamic analysis
-- Revenue trend visualization over time
-- Product line performance comparison
-- Clean and professional dashboard design
+
+💡 Key Features
+
+•	Interactive KPIs for quick insight into revenue and orders
+•	Revenue trend visualization vs last year and target
+•	Monthly orders trend and product line performance
+•	Revenue share by deal size and Top 10 company ranking
+•	Filterable by time period, country, product line, and deal size
+•	Professional dashboard layout suitable for executives
+
 
 ---
 
-## 🚀 How to Use
-1. Download the `.pbix` file from this repository
-2. Open using Power BI Desktop
-3. Interact with filters and visuals to explore insights
 
+🚀 How to Use
+
+1. Download the .pbix file from this repository
+2. Open in Power BI Desktop
+3. Apply filters and interact with visuals to explore insights
+   
 ---
 
 ## 👤 Author
+
 Ryan Tañajura Baruel  
 📧 ryanbaruel1988@gmail.com  
 🔗 GitHub: https://github.com/ryanbaruel
