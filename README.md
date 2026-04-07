@@ -47,7 +47,7 @@ This project presents an interactive Power BI dashboard designed to provide acti
 
 
 ## 📈 Dashboard Preview
-![Auto Sales Dashboard]( <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/eefc3860-31d7-48af-af2f-9ce7afdc9bb2" />)
+![Auto Sales Dashboard]([ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/eefc3860-31d7-48af-af2f-9ce7afdc9bb2" />])
 
 
 ---
