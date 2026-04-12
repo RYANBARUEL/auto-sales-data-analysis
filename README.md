@@ -47,7 +47,7 @@ This project presents an interactive Power BI dashboard designed to provide acti
 
 
 ## 📈 Dashboard Preview
-![Auto Sales Dashboard]([ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/eefc3860-31d7-48af-af2f-9ce7afdc9bb2" />])
+([ <img width="1000" src="https://github.com/user-attachments/assets/be75b6af-f8e2-44a8-b195-9a4042efec65" alt="Auto Sales Performance Dashboard">]) 
 
 
 ---
@@ -114,5 +114,6 @@ Includes historical auto sales data with:
 Ryan Tañajura Baruel  
 📧 ryanbaruel1988@gmail.com  
 🔗 GitHub: https://github.com/ryanbaruel
+
 🔥
 If you find this project helpful, feel free to ⭐ the repository!
