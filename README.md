@@ -2,7 +2,7 @@
 
 📌 Project Overview
 
-This project presents an interactive Power BI dashboard designed to provide actionable insights into auto sales performance. It allows stakeholders to analyze revenue trends, monitor monthly and yearly performance, and evaluate product line and deal-size contributions for data-driven decision-making.
+This project presents an interactive Power BI dashboard designed to provide actionable insights into auto sales performance. It allows stakeholders to analyze sales trends, monitor monthly and yearly performance, and evaluate product line and deal-size contributions for data-driven decision-making.
 
 
 ---
@@ -10,13 +10,13 @@ This project presents an interactive Power BI dashboard designed to provide acti
 
 🎯 Objectives
 
-•	Track Revenue (YoY Growth) and Orders (MoM Trend)
+•	Track Sales (YoY Growth) and Orders (MoM Trend)
 
 •	Identify monthly and seasonal sales patterns
 
 •	Highlight top-performing product lines and deal sizes
 
-•	Evaluate Top 10 companies by revenue for strategic focus
+•	Evaluate Top 10 companies by sales for strategic focus
 
 •	Provide a single-pane view of key sales KPIs
 
@@ -26,7 +26,7 @@ This project presents an interactive Power BI dashboard designed to provide acti
 
 📊 Key Metrics & Insights
 
-•	Revenue (YoY Growth): $9.8M with a 110% increase vs last year
+•	Sales (YoY Growth): $9.8M with a 110% increase vs last year
 
 •	Orders (MoM Trend): 298 total orders, 4.9% increase vs last month
 
@@ -34,20 +34,21 @@ This project presents an interactive Power BI dashboard designed to provide acti
 
 •	Average Order Value: $32.8K (slight -0.5% decline)
 
-•	Revenue Trends: Peaks in November, consistent year-end performance
+•	Sales Trends: Peaks in November, consistent year-end performance
 
-•	Top Product Line: Classic Cars lead in total revenue
+•	Top Product Line: Classic Cars lead in total sales
 
-•	Revenue Share by Deal Size: Large deals contribute the majority of sales
+•	Sales Share by Deal Size: Large deals contribute the majority of sales
 
-•	Top 10 Companies: Displayed with revenue distribution across countries
+•	Top 10 Companies: Displayed with sales distribution across countries
 
 
 ---
 
 
 ## 📈 Dashboard Preview
-([ <img width="1000" src="https://github.com/user-attachments/assets/be75b6af-f8e2-44a8-b195-9a4042efec65" alt="Auto Sales Performance Dashboard">]) 
+([ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a8cde4b5-909b-4c76-bc74-fa7c431ab768" />]) 
+
 
 
 ---
@@ -73,7 +74,7 @@ Includes historical auto sales data with:
 
 •	Product Line
 
-•	Sales Revenue
+•	Total Sales
 
 •	Customer Information
 
@@ -85,13 +86,13 @@ Includes historical auto sales data with:
 
 💡 Key Features
 
-•	Interactive KPIs for quick insight into revenue and orders
+•	Interactive KPIs for quick insight into sales and orders
 
-•	Revenue trend visualization vs last year and target
+•	Sales trend visualization vs last year and target
 
 •	Monthly orders trend and product line performance
 
-•	Revenue share by deal size and Top 10 company ranking
+•	Sales share by deal size and Top 10 company ranking
 
 •	Filterable by time period, country, product line, and deal size
 
