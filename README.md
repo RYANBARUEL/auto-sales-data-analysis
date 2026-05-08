@@ -10,21 +10,18 @@ The dashboard provides a comprehensive analysis of sales performance, including:
 - Revenue trends
 - Order performance
 - Product line analysis
-
-•	Geographic sales distribution
-
-•	Deal size contribution
-
-•	Executive KPI monitoring
+- Geographic sales distribution
+- Deal size contribution
+- Executive KPI monitoring
 
 
 The objective of this project is to demonstrate practical skills in:
 
-•	Data cleaning using SQL
-•	Data modeling
-•	DAX calculations
-•	Business intelligence reporting
-•	Dashboard design and storytelling	
+- Data cleaning using SQL
+- Data modeling
+- DAX calculations
+- Business intelligence reporting
+- Dashboard design and storytelling	
 
 
 ---
@@ -33,10 +30,10 @@ The objective of this project is to demonstrate practical skills in:
 ## Tools & Technologies
 
 
-•  SQL — Data cleaning and preprocessing
-•  Power BI Desktop — Dashboard development
-•  DAX — KPI calculations and business metrics
-•  Excel/CSV Dataset — Source data
+- SQL — Data cleaning and preprocessing
+- Power BI Desktop — Dashboard development
+- DAX — KPI calculations and business metrics
+- Excel/CSV Dataset — Source data
 
 
 ---
@@ -49,13 +46,13 @@ Before building the dashboard, the dataset was cleaned and transformed using SQL
 
 ### Cleaning Steps Performed:
 
-•	Removed duplicate records
-•	Handled missing/null values
-•	Standardized column names
-•	Corrected inconsistent data entries
-•	Converted data types
-•	Validated sales and quantity values
-•	Prepared date fields for time intelligence analysis
+- Removed duplicate records
+- Handled missing/null values
+- Standardized column names
+- Corrected inconsistent data entries
+- Converted data types
+- Validated sales and quantity values
+- Prepared date fields for time intelligence analysis
 
 
 ## Example SQL Operations:
@@ -94,40 +91,40 @@ ALTER COLUMN order_date DATE;
 
 ### KPI Cards
 
-•  Total Sales (YoY)
-•  Total Orders (MoM)
-•  Quantity Sold
-•  Average Order Value
+- Total Sales (YoY)
+- Total Orders (MoM)
+- Quantity Sold
+- Average Order Value
 
 
 ### Sales Trend Analysis
 
-•  Current Year vs Last Year
-•  Target Sales Comparison
-•  Monthly Performance Tracking
+- Current Year vs Last Year
+- Target Sales Comparison
+- Monthly Performance Tracking
 
 
 ### Product Line Analysis
 
-•  Sales by Product Line
-•  Best Performing Product Categories
+- Sales by Product Line
+- Best Performing Product Categories
 
 
 ### Geographic Insights
 
-•  Sales by Country (Map Visualization)
-•  Country Sales Ranking
+- Sales by Country (Map Visualization)
+- Country Sales Ranking
 
 
 ### Deal Size Analysis
 
-•  Revenue Contribution by Deal Size
+- Revenue Contribution by Deal Size
 
 
 ### Executive Insights & Recommendations
 
-•  Automated business insights
-•  Strategic recommendations based on sales performance
+- Automated business insights
+- Strategic recommendations based on sales performance
 
 
 ---
@@ -187,10 +184,10 @@ DIVIDE(
 ## Business Insights
 
 
-•  Classic Cars generated the highest revenue among product lines.
-•  Medium deal sizes contributed the majority of total sales.
-•  November recorded peak sales performance.
-•  Several countries showed strong sales concentration and growth potential.
+- Classic Cars generated the highest revenue among product lines.
+- Medium deal sizes contributed the majority of total sales.
+- November recorded peak sales performance.
+- Several countries showed strong sales concentration and growth potential.
 
 
 ---
@@ -199,11 +196,11 @@ DIVIDE(
 ## Project Highlights
 
 
-•  End-to-end BI workflow implementation
-•  Clean and professional dashboard design
-•  Interactive slicers and filters
-•  Dynamic KPI calculations
-•  Executive-level business reporting
+- End-to-end BI workflow implementation
+- Clean and professional dashboard design
+- Interactive slicers and filters
+- Dynamic KPI calculations
+- Executive-level business reporting
 
 
 ---
@@ -212,14 +209,14 @@ DIVIDE(
 ## Skills Demonstrated
 
 
-•  SQL Data Cleaning
-•  Data Transformation
-•  Data Modeling
-•  DAX Calculations
-•  Power BI Visualization
-•  Business Intelligence Reporting
-•  Dashboard Design
-•  Analytical Thinking
+- SQL Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Calculations
+- Power BI Visualization
+- Business Intelligence Reporting
+- Dashboard Design
+- Analytical Thinking
 
 
 
