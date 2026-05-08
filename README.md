@@ -8,28 +8,19 @@ This project is an end-to-end Sales Performance Dashboard built using SQL for da
 The dashboard provides a comprehensive analysis of sales performance, including:
 
 •	Revenue trends
-
 •	Order performance
-
 •	Product line analysis
-
 •	Geographic sales distribution
-
 •	Deal size contribution
-
 •	Executive KPI monitoring
 
 
 The objective of this project is to demonstrate practical skills in:
 
 •	Data cleaning using SQL
-
 •	Data modeling
-
 •	DAX calculations
-
 •	Business intelligence reporting
-
 •	Dashboard design and storytelling	
 
 
@@ -39,13 +30,10 @@ The objective of this project is to demonstrate practical skills in:
 ## Tools & Technologies
 
 
-•	SQL — Data cleaning and preprocessing
-
-•	Power BI Desktop — Dashboard development
-
+•  SQL — Data cleaning and preprocessing
+•  Power BI Desktop — Dashboard development
 •  DAX — KPI calculations and business metrics
-
-•	Excel/CSV Dataset — Source data
+•  Excel/CSV Dataset — Source data
 
 
 ---
@@ -56,21 +44,14 @@ The objective of this project is to demonstrate practical skills in:
 
 Before building the dashboard, the dataset was cleaned and transformed using SQL.
 
-
 ### Cleaning Steps Performed:
 
 •	Removed duplicate records
-
 •	Handled missing/null values
-
 •	Standardized column names
-
 •	Corrected inconsistent data entries
-
 •	Converted data types
-
 •	Validated sales and quantity values
-
 •	Prepared date fields for time intelligence analysis
 
 
@@ -111,34 +92,27 @@ ALTER COLUMN order_date DATE;
 ### KPI Cards
 
 •  Total Sales (YoY)
-
 •  Total Orders (MoM)
-
 •  Quantity Sold
-
 •  Average Order Value
 
 
 ### Sales Trend Analysis
 
 •  Current Year vs Last Year
-
 •  Target Sales Comparison
-
 •  Monthly Performance Tracking
 
 
 ### Product Line Analysis
 
 •  Sales by Product Line
-
 •  Best Performing Product Categories
 
 
 ### Geographic Insights
 
 •  Sales by Country (Map Visualization)
-
 •  Country Sales Ranking
 
 
@@ -150,7 +124,6 @@ ALTER COLUMN order_date DATE;
 ### Executive Insights & Recommendations
 
 •  Automated business insights
-
 •  Strategic recommendations based on sales performance
 
 
@@ -201,8 +174,9 @@ DIVIDE(
 
 ## Dashboard Preview
 
-( [<img width="100%" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/5e6dbe7d-db97-4f30-96f6-a898a9ed045b">]
+( [<img width="100%" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/175c055d-a3db-4109-a04d-4144f17097c0">]
 )
+
 
 ---
 
@@ -211,11 +185,8 @@ DIVIDE(
 
 
 •  Classic Cars generated the highest revenue among product lines.
-
 •  Medium deal sizes contributed the majority of total sales.
-
 •  November recorded peak sales performance.
-
 •  Several countries showed strong sales concentration and growth potential.
 
 
@@ -226,13 +197,9 @@ DIVIDE(
 
 
 •  End-to-end BI workflow implementation
-
 •  Clean and professional dashboard design
-
 •  Interactive slicers and filters
-
 •  Dynamic KPI calculations
-
 •  Executive-level business reporting
 
 
@@ -243,19 +210,12 @@ DIVIDE(
 
 
 •  SQL Data Cleaning
-
 •  Data Transformation
-
 •  Data Modeling
-
 •  DAX Calculations
-
 •  Power BI Visualization
-
 •  Business Intelligence Reporting
-
 •  Dashboard Design
-
 •  Analytical Thinking
 
 
