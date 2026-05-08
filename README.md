@@ -1,120 +1,273 @@
-🚗 Auto Sales Performance Dashboard
+# Sales Performance Dashboard | SQL + Power BI
 
-📌 Project Overview
+## Project Overview
 
-This project presents an interactive Power BI dashboard designed to provide actionable insights into auto sales performance. It allows stakeholders to analyze sales trends, monitor monthly and yearly performance, and evaluate product line and deal-size contributions for data-driven decision-making.
-
-
----
+This project is an end-to-end Sales Performance Dashboard built using SQL for data cleaning and transformation, and Power BI for interactive data visualization and business insights generation.
 
 
-🎯 Objectives
+The dashboard provides a comprehensive analysis of sales performance, including:
 
-•	Track Sales (YoY Growth) and Orders (MoM Trend)
+•	Revenue trends
 
-•	Identify monthly and seasonal sales patterns
+•	Order performance
 
-•	Highlight top-performing product lines and deal sizes
+•	Product line analysis
 
-•	Evaluate Top 10 companies by sales for strategic focus
+•	Geographic sales distribution
 
-•	Provide a single-pane view of key sales KPIs
+•	Deal size contribution
+
+•	Executive KPI monitoring
 
 
----
+The objective of this project is to demonstrate practical skills in:
 
+•	Data cleaning using SQL
 
-📊 Key Metrics & Insights
+•	Data modeling
 
-•	Sales (YoY Growth): $9.8M with a 110% increase vs last year
+•	DAX calculations
 
-•	Orders (MoM Trend): 298 total orders, 4.9% increase vs last month
+•	Business intelligence reporting
 
-•	Total Quantity Sold: 96K units
-
-•	Average Order Value: $32.8K (slight -0.5% decline)
-
-•	Sales Trends: Peaks in November, consistent year-end performance
-
-•	Top Product Line: Classic Cars lead in total sales
-
-•	Sales Share by Deal Size: Large deals contribute the majority of sales
-
-•	Top 10 Companies: Displayed with sales distribution across countries
+•	Dashboard design and storytelling	
 
 
 ---
 
 
-## 📈 Dashboard Preview
-([ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a8cde4b5-909b-4c76-bc74-fa7c431ab768" />]) 
+## Tools & Technologies
 
 
+•	SQL — Data cleaning and preprocessing
 
----
+•	Power BI Desktop — Dashboard development
 
+•  DAX — KPI calculations and business metrics
 
-🛠️ Tools & Technologies
-
-•	Power BI – Data visualization, interactive dashboards
-
-•	DAX – KPI, MoM, and YoY calculations
-
-•	Excel & SQL – Data cleaning, extraction, and transformation
+•	Excel/CSV Dataset — Source data
 
 
 ---
 
 
-📂 Dataset
+## Data Cleaning Process (SQL)
 
-Includes historical auto sales data with:
 
-•	Order Date
+Before building the dashboard, the dataset was cleaned and transformed using SQL.
 
-•	Product Line
 
-•	Total Sales
+### Cleaning Steps Performed:
 
-•	Customer Information
+•	Removed duplicate records
 
-•	Deal Size
+•	Handled missing/null values
+
+•	Standardized column names
+
+•	Corrected inconsistent data entries
+
+•	Converted data types
+
+•	Validated sales and quantity values
+
+•	Prepared date fields for time intelligence analysis
+
+
+## Example SQL Operations:
+
+Remove NULL sales values
+
+```
+DELETE FROM sales_data
+
+WHERE sales IS NULL;
+```
+
+-- Standardize country names
+
+```
+UPDATE sales_data
+
+SET country = 'USA'
+
+WHERE country = 'United States';
+```
+
+-- Convert order date format
+
+```
+ALTER TABLE sales_data
+
+ALTER COLUMN order_date DATE;
+```
+
+---
+
+
+## Dashboard Features
+
+
+### KPI Cards
+
+•  Total Sales (YoY)
+
+•  Total Orders (MoM)
+
+•  Quantity Sold
+
+•  Average Order Value
+
+
+### Sales Trend Analysis
+
+•  Current Year vs Last Year
+
+•  Target Sales Comparison
+
+•  Monthly Performance Tracking
+
+
+### Product Line Analysis
+
+•  Sales by Product Line
+
+•  Best Performing Product Categories
+
+
+### Geographic Insights
+
+•  Sales by Country (Map Visualization)
+
+•  Country Sales Ranking
+
+
+### Deal Size Analysis
+
+•  Revenue Contribution by Deal Size
+
+
+### Executive Insights & Recommendations
+
+•  Automated business insights
+
+•  Strategic recommendations based on sales performance
 
 
 ---
 
 
-💡 Key Features
+## Key DAX Measures
 
-•	Interactive KPIs for quick insight into sales and orders
 
-•	Sales trend visualization vs last year and target
+Total Sales
 
-•	Monthly orders trend and product line performance
+```
+Total Sales = SUM(auto_sales_clean[sales])
+```
 
-•	Sales share by deal size and Top 10 company ranking
+Sales Last Year
 
-•	Filterable by time period, country, product line, and deal size
+```
+Sales Last Year =
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR('Date'[Date])
+)
+```
 
-•	Professional dashboard layout suitable for executives
+Sales Growth %
+
+```
+Sales Growth % =
+DIVIDE(
+    [Total Sales] - [Sales Last Year],
+    [Sales Last Year]
+)
+```
+
+Average Order Value
+
+```
+Average Order Value =
+DIVIDE(
+    [Total Sales],
+    [Total Orders]
+)
+```
+
+---
+
+
+## Dashboard Preview
+
+( [<img width="100%" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/5e6dbe7d-db97-4f30-96f6-a898a9ed045b">]
+)
+
+---
+
+
+## Business Insights
+
+
+•  Classic Cars generated the highest revenue among product lines.
+
+•  Medium deal sizes contributed the majority of total sales.
+
+•  November recorded peak sales performance.
+
+•  Several countries showed strong sales concentration and growth potential.
 
 
 ---
 
 
-🚀 How to Use
+## Project Highlights
 
-1. Download the .pbix file from this repository
-2. Open in Power BI Desktop
-3. Apply filters and interact with visuals to explore insights
-   
+
+•  End-to-end BI workflow implementation
+
+•  Clean and professional dashboard design
+
+•  Interactive slicers and filters
+
+•  Dynamic KPI calculations
+
+•  Executive-level business reporting
+
+
 ---
 
-## 👤 Author
 
-Ryan Tañajura Baruel  
-📧 ryanbaruel1988@gmail.com  
-🔗 GitHub: https://github.com/ryanbaruel
+## Skills Demonstrated
 
-🔥
-If you find this project helpful, feel free to ⭐ the repository!
+
+•  SQL Data Cleaning
+
+•  Data Transformation
+
+•  Data Modeling
+
+•  DAX Calculations
+
+•  Power BI Visualization
+
+•  Business Intelligence Reporting
+
+•  Dashboard Design
+
+•  Analytical Thinking
+
+
+
+## Author
+
+
+## Ryan Tañajura Baruel  
+
+Business Intelligence / Data Analytics Portfolio Project
+
+GitHub: (https://github.com/ryanbaruel)
+
+LinkedIn: www.linkedin.com/in/ryan-baruel
+
