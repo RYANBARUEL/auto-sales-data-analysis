@@ -7,11 +7,14 @@ This project is an end-to-end Sales Performance Dashboard built using SQL for da
 
 The dashboard provides a comprehensive analysis of sales performance, including:
 
-•	Revenue trends
-•	Order performance
-•	Product line analysis
+- Revenue trends
+- Order performance
+- Product line analysis
+
 •	Geographic sales distribution
+
 •	Deal size contribution
+
 •	Executive KPI monitoring
 
 
