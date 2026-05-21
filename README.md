@@ -174,7 +174,7 @@ DIVIDE(
 
 ## Dashboard Preview
 
-( [<img width="100%" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/21279104-0242-4c28-99ca-5a3a07a14258" />]
+( [<img width="100%" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/768f0d73-57cb-46d7-a7a4-71ab6acee9f1"  />]
 )
 
 
